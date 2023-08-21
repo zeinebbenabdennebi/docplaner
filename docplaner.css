@@ -1,0 +1,338 @@
+
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+.logo{
+    width: 268px;
+}
+.links .active{
+    color: #00b39b;
+}
+.links a{
+    color: #ababab;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+}
+.small{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text h1{
+    color:#00b39b;
+}
+.paragraphe1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 270px;
+    
+}
+.icone1{
+    background-color: #00b39b;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    
+}
+h2{
+    color: white;
+}
+.patient{
+    width: 30px;
+}
+
+.icone2{
+    background-color: #3d83df;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    
+}
+.docteur{
+    width: 30px;
+}
+.icone3{
+    background-color: #1b2734;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+}
+.clinic{
+    width: 30px;
+}
+.icone1-2-3{
+    display: flex;
+    justify-content: center;
+}
+.A1{
+    color: white;
+    margin-top: 80px;
+}
+.A2{
+    color: white;
+    margin-top: 80px;
+}
+.A3{
+    color: white;
+    margin-top: 40px;
+}
+.A4{
+    color: white;
+    margin-top: 10px;
+}
+.text1{
+    color: #00b39b;
+    display: flex;
+    margin: 10px 300px;
+}
+.text1 h1{
+    width: 750px;
+}
+@media screen and (max-width: 920px) {
+    ul li ul li {
+      margin-left: -92px;
+    }
+    .top,
+    .bot {
+      display: block;
+    }
+  }
+  
+  @media screen and (min-width: 920px) {
+    .top,
+    .bot {
+      display: flex;
+      margin-left: 50px;
+      margin-right: 150px;
+      margin-bottom: 70px;
+    }
+  }
+  main {
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main-logo {
+    margin: 30px;
+  }
+  main > h1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+    margin: 1em 0;
+    margin-top: 15px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+  }
+  
+  .two-text {
+    max-width: 1000px;
+  }
+  
+  .two-text p {
+    padding: 20px;
+    margin: 0.8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+    color: #747474;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  .blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .blocks div {
+    padding: 40px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-color: #00b39b;
+    flex-wrap: wrap;
+    font-size: 20px;
+    max-width: 400px;
+    border-radius: 15px;
+  }
+  .blocks div h3 {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #eee;
+    opacity: 0.8;
+  }
+  
+  select {
+    width: 180px;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  svg {
+    height: 20px;
+    width: auto;
+    max-width: 100%;
+    padding-left: 10px;
+    overflow: hidden;
+    fill: hsla(0, 0%, 67%, 0.7);
+    transition: 0.2s;
+  }
+  svg:hover {
+    fill: #00b39b;
+  }
+  .svgs {
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+  .svgs p {
+    font-size: 1.5em;
+    color: #00b39b;
+  }
+  #container {
+    display: flex;
+    background-color: #e5faf8;
+    justify-content: space-around;
+    padding: 40px;
+    padding-top: 80px;
+  }
+  #container h1 {
+    color: #00b39b;
+    font-size: 2.125rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    max-width: 400px;
+  }
+  #container p {
+    color: #747474;
+    max-width: 415px;
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 1.7142857143;
+  }
+  .some-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .some-text h1 {
+    color: #00b39b;
+    font-size: 2.1428571429em;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin-top: 70px;
+    margin: 30px;
+  }
+  
+  .some-text p {
+    line-height: 1.7142857143;
+    font-size: 0.875em;
+    font-weight: 400;
+    color: #747474;
+    max-width: 460px;
+    margin-bottom: 80px;
+  }
+  h3 {
+    color: #03c2a9;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+  }
+  
+  block-cont {
+    display: block;
+  }
+  
+  .top section,
+  .bot section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 240px;
+    background-color: #fff;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 3%;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 75%;
+  }
+  
+  .card {
+    width: 30%;
+    justify-content: center;
+    border-radius: 2%;
+    border: 1px solid #ddd;
+    margin-bottom: 4%;
+    margin: 10px;
+    transition: 0.2s;
+  }
+  .card img {
+    border-radius: 2% 2% 0 0;
+    width: 100%;
+  }
+  
+  .card div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+  }
+  .card div a {
+    padding: 4%;
+    background-color: #3d83df;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  .card:hover {
+    box-shadow: 10px 5px 5px #ddd;
+  }
+  footer {
+    padding: 2%;
+    border-top: 1px solid #eee;
+  }
+  footer p {
+    font-size: 12px;
+    color: #747474;
+    text-align: center;
+  }
